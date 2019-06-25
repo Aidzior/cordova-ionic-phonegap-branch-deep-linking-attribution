@@ -59,11 +59,12 @@ SOFTWARE.
       </feature>
     </config-file>
 
+    
     <source-file src="src/android/io/branch/BranchSDK.java" target-dir="src/io/branch" />
-    <source-file src="src/android/dependencies/Branch.aar" target-dir="app/libs/Branch.aar" />
-    <resource-file src="src/android/dependencies/Branch.aar" target="libs/Branch.aar"/>
-    <resource-file src="src/android/dependencies/Branch.aar" target="app/src/libs/Branch.aar"/>
-    <resource-file src="src/android/dependencies/Branch.aar" target-dir="app/libs" />
+    <source-file src="src/android/dependencies/Branch.aar" target-dir="app/libs" />
+    <source-file src="src/android/dependencies/Branch.aar" target-dir="libs" />
+    <source-file src="src/android/dependencies/Branch.aar" target-dir="app/src/libs" />
+
     <framework src="src/android/dependencies/rules.gradle" custom="true" type="gradleReference" />
   </platform>
 
